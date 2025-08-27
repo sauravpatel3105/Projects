@@ -200,6 +200,7 @@ def main():
             display_data()
         elif choice == "12":
             print("Thank you for using the Data Analyzer and Transformer Program. Goodbye!")
+            print("")
             break
         else:
             print("Invalid choice. Please try again.")
@@ -207,4 +208,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
